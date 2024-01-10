@@ -179,6 +179,7 @@
     z-index: 10;
     display: inline;
     cursor: pointer;
+    
   }
   
   .bar1,
@@ -215,13 +216,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--primaryColor);
   }
+
   
   section#home {
-    background-image: url("https://images.unsplash.com/photo-1691466517945-0f9cc5b47539?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-image: url("https://images.unsplash.com/photo-1671725779253-aa2351eb9271?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center center;
   }
@@ -234,14 +235,38 @@
     text-decoration: none;
     font-size: 0.8rem;
     padding-bottom: 5px;
-    color: var(--primaryColor);
+    color: white;
     font-weight: 600;
-    border-bottom: 1px solid var(--primaryColor);
+    font-size: 36px;
+    border-bottom: 2px solid white;
   }
   
   section#about {
     background-color: var(--navColor2);
   }
+
+  .content {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+
+  section#about span {
+    text-align: center;
+    font-size: 22px;
+    }
+
+    section#skills span {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    section#skills h1 {
+        font-size: 36px;
+    }
   
   section#skills {
     background-color: var(--navColor3);
