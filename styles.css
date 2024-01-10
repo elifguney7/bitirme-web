@@ -5,8 +5,8 @@
     --navColor1: #21292c;
     --navColor2: #aa3e39;
     --navColor3: #d38b4d;
-    --navColor4: #236267;
-    --navColor5: #3f8148;
+    --navColor4: #0e465a;
+    --navColor5: #cdc9c9;
   }
   
   html {
@@ -251,6 +251,16 @@
     display: flex;
     flex-direction: column;
     width: 70%;
+  }
+
+  section#contact .content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 24px;
   }
 
 
